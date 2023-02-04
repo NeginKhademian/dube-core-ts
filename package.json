@@ -1,5 +1,5 @@
 {
-  "name": "vue-component-lib-starter",
+  "name": "dube-core-ts",
   "version": "0.0.1",
   "private": false,
   "scripts": {
@@ -41,10 +41,10 @@
     "dist"
   ],
   "types": "./dist/types/index.d.ts",
-  "module": "./dist/vue-component-lib-starter.es.js",
+  "module": "./dist/dube-core-ts.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-component-lib-starter.es.js"
+      "import": "./dist/dube-core-ts.es.js"
     },
     "./dist/style.css": "./dist/style.css"
   }

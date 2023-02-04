@@ -7,9 +7,9 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'vue-component-lib-starter',
+      name: 'dube-core-ts',
       formats: ['es'], // adding 'umd' requires globals set to every external module
-      fileName: (format) => `vue-component-lib-starter.${format}.js`,
+      fileName: (format) => `dube-core-ts.${format}.js`,
     },
     rollupOptions: {
       // external modules won't be bundled into your library

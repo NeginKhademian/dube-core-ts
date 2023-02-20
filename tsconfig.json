@@ -15,9 +15,16 @@
     "declarationDir": "./dist/types",
     "isolatedModules": true,
     "skipLibCheck": true,
-    "types": [
-      "vite/client"
-    ]
+    "types": ["vite/client", "node", "webpack-env"],
+    "noImplicitThis": false,
+    "allowJs": true,
+    "typeRoots": ["../node_modules/@types"],
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/index.js"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/index.js"
+  ]
 }
